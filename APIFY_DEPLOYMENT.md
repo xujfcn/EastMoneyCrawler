@@ -9,7 +9,7 @@
    - 免费账户包含一定的运行配额
 
 2. **GitHub 仓库**
-   - 项目已推送到 GitHub: https://github.com/xujfcn/EastMoney_Crawler
+   - 项目已推送到 GitHub: https://github.com/xujfcn/EastMoneyCrawler
 
 ## 部署步骤
 
@@ -28,7 +28,7 @@
    - Name: `eastmoney-stock-forum-crawler`
    - Description: `东方财富股吧爬虫 - 爬取指定股票的帖子和评论数据`
    - Source type: 选择 "GitHub"
-   - Repository: 输入 `xujfcn/EastMoney_Crawler`
+   - Repository: 输入 `xujfcn/EastMoneyCrawler`
    - Branch: `main`
 
 4. **构建设置**
@@ -61,7 +61,7 @@
 
 3. **推送到 Apify**
    ```bash
-   cd c:\Users\jianf\Desktop\scraper\EastMoney_Crawler
+   cd c:\Users\jianf\Desktop\scraper\EastMoneyCrawler
    apify push
    ```
    - 首次推送会创建新 Actor
@@ -277,6 +277,6 @@ cat apify_storage/datasets/default/000000001.json
 ## 技术支持
 
 如遇到问题：
-1. 查看 [GitHub Issues](https://github.com/xujfcn/EastMoney_Crawler/issues)
+1. 查看 [GitHub Issues](https://github.com/xujfcn/EastMoneyCrawler/issues)
 2. 参考 [Apify Community](https://community.apify.com/)
 3. 查看项目 [README.md](README.md)

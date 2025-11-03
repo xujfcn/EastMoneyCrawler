@@ -20,7 +20,7 @@
 ## 项目结构
 
 ```
-EastMoney_Crawler/
+EastMoneyCrawler/
 ├── .actor/
 │   ├── actor.json              # Apify Actor 配置文件
 │   └── INPUT_SCHEMA.json       # 输入参数定义
